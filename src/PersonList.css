@@ -1,0 +1,19 @@
+/* Avatar image styling */
+.avatar {
+    width: 80px; /* Adjust width */
+    height: 80px; /* Adjust height */
+    border-radius: 50%; /* Circular avatar */
+    object-fit: cover; /* Ensure the image fits inside the circle */
+  }
+  
+  /* Styling for button */
+  .custom-button {
+    width: 100%; /* Make the button full width */
+    max-width: 150px; /* Limit the maximum width */
+  }
+  
+  /* Optional: Add some padding to the right section for spacing */
+  .card-body > div:last-child {
+    padding-left: 15px;
+  }
+  
